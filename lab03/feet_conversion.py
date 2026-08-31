@@ -1,0 +1,8 @@
+print("Enter a total number of feet: ")
+feet = int(input())
+miles = int(feet / 5280)
+rfeet = int(feet % 5280)
+furlong = int(rfeet / 660)
+rfeeta = int(rfeet - (furlong*660))
+print(feet, "total feet is", miles, "mile(s),", end=" ")
+print(furlong, "furlong(s), and", rfeeta, "feet.")

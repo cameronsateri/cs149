@@ -1,0 +1,3 @@
+Enter the number of seconds: 
+1000 seconds = 0 hours, 16 minutes, and 40 seconds
+

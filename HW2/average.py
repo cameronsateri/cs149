@@ -1,0 +1,5 @@
+name = input("Enter the item name: ")
+pur = int(input("Enter the number purchased: "))
+tp = float(int(input("Enter the total price: ")) / pur)
+ret = "{:.2f}".format(tp)
+print("\nThe average price of a(n)", name, "is", ret, "dollars")

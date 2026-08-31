@@ -1,0 +1,5 @@
+nc = int(input("Enter the number of cookies: "))
+nfm = int(input("Enter the number of family members: "))
+tc = int(nc / nfm)
+ext = int(nc % tc)
+print("\nEach family member gets", tc, "cookies, and Rocky gets", ext, "cookies.")
